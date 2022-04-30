@@ -15,6 +15,8 @@ Run:
 git clone https://github.com/nicodeas/git-tute.git
 ```
 
+Please nominate one person from your group to do steps 2-5
+
 2. Create a new branch for your group by running (please create branch with the same name as your group):
 ```
 git branch <name of branch>
@@ -32,8 +34,41 @@ Now that we have created our branch, it is time we checkout(switch to) that bran
 git checkout <name of your branch>
 ```
 
-## Excercise
+5. Let push your newly created branch to github by running:
 
-Now that your group is on the same branch, you are free to add whatever you like to the code base!
+(name of remote will be origin for today)
+
+```
+git push <name of remote> <name of branch>
+```
+
+---
+
+## Checkpoint!
+
+Now that your group has created the branch, we need to update the repositories of other group members by running:
+```
+git pull
+```
+
+Once everyone in your group has updated their repository, please checkout to the branch created by your group
+
+We will be running this command several times to 'pull' in changes made by our group members!
+
+---
+
+## Exercise
+
+Please ensure that you are on the branch your group has created before continuing further!
+
+1. Now that you are on your branch, you are free to do whatever you like with the code! For the excercise, create a copy of the template folder and rename it to the name of your group. Run:
+```
+cp -r ./template/ ./<name of group>
+
+```
+
+
+
+
 
 
